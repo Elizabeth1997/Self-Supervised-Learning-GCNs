@@ -34,11 +34,11 @@ For each work I read already, I leave some short comments as summary. If you fin
 
   2. **attribute information**
 
-     - Attribute mask
+     - **Attribute mask**
        - similar to node feature masking (RCF) in [[3](https://arxiv.org/pdf/2003.01604.pdf)]
        - randomly mask out node features (set equal to zero); reconstruct original node features
        - regression task
-     - PairwiseAttrSim
+     - **PairwiseAttrSim**
        - make sure the learnt representations of two nodes that have similar attributes originally are close as well
        - use *cosine* to measure the attributes similarity
        - top-k and bottom-k similarity
